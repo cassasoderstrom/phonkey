@@ -24,22 +24,13 @@ namespace DiscordBot
         private LavalinkExtension? lava;
         private DiscordChannel? channel;
 
-        public async Task musicPoll(CommandContext ctx, LavalinkTrack track )
+        public async Task musicPoll(CommandContext ctx, DiscordEmbedBuilder pollEmbed)
         {
+            allowedPlay = false;
             DiscordEmoji[] emojis =
                 { DiscordEmoji.FromName(ctx.Client, ":+1:"), DiscordEmoji.FromName(ctx.Client, ":-1:") };
             var interactivity = ctx.Client.GetInteractivity();
-            var pollEmbed = new DiscordEmbedBuilder()
-            {
-                Title = $"**{track.Title}** requested by {ctx.Member?.DisplayName}?",
-                Description = "Want to hear it?",
-                Color = DiscordColor.Green,
-                Thumbnail = new DiscordEmbedBuilder.EmbedThumbnail
-                {
-                    Url = $"https://avatar.glue-bot.xyz/youtube-thumbnail/q?url={track.Uri}"
-                } 
-            };
-
+            
             var pollMessage = await ctx.Channel.SendMessageAsync(embed: pollEmbed).ConfigureAwait(false);
 
             await pollMessage.CreateReactionAsync(emojis[0]).ConfigureAwait(false);
@@ -47,42 +38,27 @@ namespace DiscordBot
 
             var result = await interactivity.DoPollAsync(pollMessage, emojis, 0, TimeSpan.FromSeconds(10));
 
-            if (result[0].Total < result[1].Total && result[0].Emoji.Equals(DiscordEmoji.FromName(ctx.Client, ":+1:")))
-            {
-                await ctx.Channel.SendMessageAsync("Vote failed");
-                if (!isPlaying)
-                {
-                    await Leave(ctx);
-                }
-                
-            }
-            else if (result[0].Total > result[1].Total &&
+            
+            if (result[0].Total > result[1].Total &&
                      result[0].Emoji.Equals(DiscordEmoji.FromName(ctx.Client, ":+1:")))
             {
                 allowedPlay = true;
-                await ctx.Channel.SendMessageAsync("Vote succeeded!");
+                await ctx.RespondAsync("Vote succeeded!");
                 
             }
-            else if (result[0].Total < result[1].Total && result[0].Emoji.Equals(DiscordEmoji.FromName(ctx.Client, ":-1:")))
-            {
-                allowedPlay = true;
-                await ctx.Channel.SendMessageAsync("Vote succeeded!");
-            }
-            else if (result[0].Total > result[1].Total &&
+            else if (result[0].Total < result[1].Total && 
                      result[0].Emoji.Equals(DiscordEmoji.FromName(ctx.Client, ":-1:")))
             {
-                await ctx.Channel.SendMessageAsync("Vote failed");
-                if (!isPlaying)
-                {
-                    await Leave(ctx);
-                }
+                allowedPlay = true;
+                await ctx.RespondAsync("Vote succeeded!");
             }
+            
             else
             {
-                await ctx.Channel.SendMessageAsync("Vote failed");
+                await ctx.RespondAsync("Vote failed");
                 if (!isPlaying)
                 {
-                    await Leave(ctx);
+                    await conn.DisconnectAsync();
                 }
             }
            
@@ -92,9 +68,8 @@ namespace DiscordBot
         public async Task Play(CommandContext ctx, [RemainingText] string search)
         {
             //Checks if user is admin in our server
-            var hasRequiredRole = ctx.Member.Roles.Any(role => role.Name == "tude som tar hand om servern");
-
-            
+            //var hasRequiredRole = ctx.Member.Roles.Any(role => role.Name == "tude som tar hand om servern");
+            var hasRequiredRole = ctx.Member.Permissions.HasPermission(Permissions.ManageGuild);
             
             //Checks if user is connected to a voice channel
             if (ctx.Member?.VoiceState == null || ctx.Member.VoiceState.Channel == null!)
@@ -150,7 +125,17 @@ namespace DiscordBot
             
             if (!hasRequiredRole)
             {
-                await musicPoll(ctx, track);
+                var pollEmbed = new DiscordEmbedBuilder()
+                {
+                    Title = $"**{track.Title}** requested by {ctx.Member?.DisplayName}",
+                    Description = "Want to hear it?",
+                    Color = DiscordColor.Green,
+                    Thumbnail = new DiscordEmbedBuilder.EmbedThumbnail
+                    {
+                        Url = $"https://avatar.glue-bot.xyz/youtube-thumbnail/q?url={track.Uri}"
+                    } 
+                };
+                await musicPoll(ctx, pollEmbed);
                 if (!allowedPlay)
                 {
                     return;
@@ -164,7 +149,7 @@ namespace DiscordBot
             }
             if (!isPlaying)
             {
-                allowedPlay = false;
+              
                 isPlaying = true;
                 await conn.PlayAsync(track);
                 await ctx.RespondAsync($"Now playing {track.Title} in {channel.Name}!");
@@ -178,9 +163,7 @@ namespace DiscordBot
                 await ctx.RespondAsync($"{track.Title} has been added to the queue.");
                 
             }
-
             
-
         }
         private async Task PlayNextInQueue(CommandContext ctx)
         {
@@ -190,13 +173,13 @@ namespace DiscordBot
                 {
                     var nextTrack = songQueue.Dequeue();
                     await conn.PlayAsync(nextTrack);
-                    await ctx.RespondAsync($"Now playing {nextTrack.Title} in {channel?.Name}!");
+                    await ctx.Channel.SendMessageAsync($"Now playing {nextTrack.Title} in {channel?.Name}!");
                 }
                 else
                 {
                     isPlaying = false;
                     await conn.DisconnectAsync();
-                    await ctx.RespondAsync("Queue empty, bye bye!");
+                    await ctx.Channel.SendMessageAsync("Queue empty, bye bye!");
                 }
             }
         }
@@ -204,13 +187,31 @@ namespace DiscordBot
         [Command("skip")]
         public async Task Skip(CommandContext ctx)
         {
+            //var hasRequiredRole = ctx.Member.Roles.Any(role => role.Name == "tude som tar hand om servern");
+            var hasRequiredRole = ctx.Member.Permissions.HasPermission(Permissions.ManageGuild);
+            
+            
             conn = node?.GetGuildConnection(ctx.Member.VoiceState.Guild);
             if (conn == null)
             {
                 await ctx.RespondAsync("The bot is not in a voice channel.");
                 return;
             }
-            
+            if (!hasRequiredRole)
+            {
+                var pollEmbed = new DiscordEmbedBuilder()
+                {
+                    Title = $" **Skip** requested by {ctx.Member?.DisplayName}",
+                    Description = "Want to skip current song?",
+                    Color = DiscordColor.Green
+                };
+                await musicPoll(ctx, pollEmbed);
+                if (!allowedPlay)
+                {
+                    return;
+                }
+                
+            }
             // Skip the current track and play the next one
             
             if (songQueue.Count > 0)
@@ -238,7 +239,13 @@ namespace DiscordBot
             else
             {
                 var queueList = songQueue.Select((track, index) => $"{index + 1}. {track.Title}");
-                await ctx.RespondAsync($"**Queue:**\n{string.Join("\n", queueList)}");
+                var queueEmbed = new DiscordEmbedBuilder()
+                {
+                    Title = "Queue",
+                    Description = $"{string.Join("\n", queueList)}",
+                    Color = DiscordColor.Green
+                };
+                await ctx.RespondAsync(embed: queueEmbed);
             }
         }
         
@@ -246,6 +253,9 @@ namespace DiscordBot
         [Command ("leave")]
         public async Task Leave(CommandContext ctx)
         {
+            //var hasRequiredRole = ctx.Member.Roles.Any(role => role.Name == "tude som tar hand om servern");
+            var hasRequiredRole = ctx.Member.Permissions.HasPermission(Permissions.ManageGuild);
+            
             channel = ctx.Member?.VoiceState.Channel;
             
             lava = ctx.Client.GetLavalink();
@@ -265,13 +275,28 @@ namespace DiscordBot
                 await ctx.RespondAsync("Lavalink is not connected.");
                 return;
             }
-
+            if (!hasRequiredRole)
+            {
+                var pollEmbed = new DiscordEmbedBuilder()
+                {
+                    Title = $" **Leave** requested by {ctx.Member?.DisplayName}?",
+                    Description = "Want me to leave? (I'll also clear the song queue if I leave)",
+                    Color = DiscordColor.Green
+                };
+                await musicPoll(ctx, pollEmbed);
+                if (!allowedPlay)
+                {
+                    return;
+                }
+                
+            }
             isPlaying = false;
             songQueue.Clear();
             await conn.DisconnectAsync();
-            await ctx.RespondAsync($"Left {channel.Name}!");
+            await ctx.RespondAsync($"Left {channel.Name}! and cleared song queue");
+           
         }
-        
+
         
     }
 }

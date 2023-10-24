@@ -38,7 +38,7 @@ namespace DiscordBot
             
             discord.UseInteractivity(new InteractivityConfiguration() 
             { 
-                PollBehaviour = PollBehaviour.KeepEmojis,
+                PollBehaviour = PollBehaviour.DeleteEmojis,
                 Timeout = TimeSpan.FromSeconds(10)
                 
             });

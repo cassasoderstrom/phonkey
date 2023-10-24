@@ -1,8 +1,8 @@
-2023-10-06 10:51:23.234  INFO 10256 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 17.0.8.1 on DESKTOP-9EGSDCM with PID 10256 (C:\Users\cassa\RiderProjects\Discordbot\lavalink\Lavalink.jar started by Cassa in C:\Users\cassa\RiderProjects\Discordbot\lavalink)
-2023-10-06 10:51:23.251  INFO 10256 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
-2023-10-06 10:51:24.286  INFO 10256 --- [main] lavalink.server.Launcher                 : Started Launcher in 1.766 seconds (JVM running for 2.406)
-2023-10-06 10:51:24.291  INFO 10256 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/lavalink-devs/Lavalink/issues/295
-2023-10-06 10:51:24.360  INFO 10256 --- [main] lavalink.server.Launcher                 : 
+2023-10-10 14:56:44.485  INFO 21768 --- [main] lavalink.server.Launcher                 : Starting Launcher using Java 17.0.8.1 on DESKTOP-9EGSDCM with PID 21768 (C:\Users\cassa\RiderProjects\Discordbot\lavalink\Lavalink.jar started by Cassa in C:\Users\cassa\RiderProjects\Discordbot\lavalink)
+2023-10-10 14:56:44.504  INFO 21768 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-10-10 14:56:45.673  INFO 21768 --- [main] lavalink.server.Launcher                 : Started Launcher in 1.954 seconds (JVM running for 2.507)
+2023-10-10 14:56:45.677  INFO 21768 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/lavalink-devs/Lavalink/issues/295
+2023-10-10 14:56:45.752  INFO 21768 --- [main] lavalink.server.Launcher                 : 
 
 [32m       .  [31m _                  _ _       _    [32m__ _ _
 [32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
@@ -19,228 +19,202 @@
 	JVM:            17.0.8.1
 	Lavaplayer      1.5.0
 
-2023-10-06 10:51:24.371  INFO 10256 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
-2023-10-06 10:51:25.382  WARN 10256 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
-2023-10-06 10:51:25.407  INFO 10256 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
-2023-10-06 10:51:25.407  INFO 10256 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1030 ms
-2023-10-06 10:51:25.560  INFO 10256 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
-2023-10-06 10:51:26.656  INFO 10256 --- [main] lavalink.server.config.KoeConfiguration  : OS: WINDOWS, Arch: X86_64
-2023-10-06 10:51:26.657  INFO 10256 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
-2023-10-06 10:51:26.663  INFO 10256 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
-2023-10-06 10:51:26.675  INFO 10256 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
-2023-10-06 10:51:26.725  WARN 10256 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
-2023-10-06 10:51:27.011  INFO 10256 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
-2023-10-06 10:51:27.025  INFO 10256 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
-2023-10-06 10:51:27.054  INFO 10256 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
-2023-10-06 10:51:27.162  INFO 10256 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
-2023-10-06 10:51:27.225  INFO 10256 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2333 (http)
-2023-10-06 10:51:27.231  INFO 10256 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.933 seconds (JVM running for 5.351)
-2023-10-06 10:51:27.232  INFO 10256 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
-2023-10-06 10:51:38.939  INFO 10256 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2023-10-06 10:51:38.940  INFO 10256 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2023-10-06 10:51:38.943  INFO 10256 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2023-10-06 10:51:38.975  INFO 10256 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61359
-2023-10-06 10:51:39.001  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
-2023-10-06 10:51:39.358  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
-2023-10-06 10:52:10.081  INFO 10256 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"315c4bbaebb1ccba179b9b5b36516823","event":{"token":"1807e61aabd36c9f","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 10:52:10.083  WARN 10256 --- [XNIO-1 I/O-2] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
-2023-10-06 10:52:10.106  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:the strokes"
-2023-10-06 10:52:10.710  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: the strokes
-2023-10-06 10:52:10.788  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Athe+strokes, client=127.0.0.1
-2023-10-06 10:52:49.912  INFO 10256 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 10:52:51.800  INFO 10256 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61359 -- CloseStatus[code=1006, reason=]
-2023-10-06 10:52:51.801  INFO 10256 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2023-10-06 10:53:26.932  INFO 10256 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61411
-2023-10-06 10:53:26.934  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
-2023-10-06 10:53:26.936  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
-2023-10-06 10:53:54.274  INFO 10256 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"sessionId":"be0213f069a11871d7d60a954d866632","event":{"token":"4a9e884efecf170c","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 10:53:54.275  WARN 10256 --- [XNIO-1 I/O-5] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
-2023-10-06 10:53:54.282  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:hello"
-2023-10-06 10:53:54.715  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: hello
-2023-10-06 10:53:54.720  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Ahello, client=127.0.0.1
-2023-10-06 10:54:48.182  INFO 10256 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 10:54:50.052  INFO 10256 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61411 -- CloseStatus[code=1006, reason=]
-2023-10-06 10:54:50.053  INFO 10256 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2023-10-06 10:55:15.142  INFO 10256 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61459
-2023-10-06 10:55:15.144  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
-2023-10-06 10:55:15.146  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
-2023-10-06 10:55:49.177  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"3c3e4bf7f05f9b6cd44d40ce710fbd0b","event":{"token":"f4589477ea79c48c","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 10:55:49.178  WARN 10256 --- [XNIO-1 I/O-6] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
-2023-10-06 10:55:49.186  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:morrro"
-2023-10-06 10:55:49.545  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: morrro
-2023-10-06 10:55:49.550  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Amorrro, client=127.0.0.1
-2023-10-06 10:56:11.440  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 10:57:27.637  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61459 -- CloseStatus[code=1006, reason=]
-2023-10-06 10:57:27.638  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2023-10-06 10:57:37.997  INFO 10256 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61523
-2023-10-06 10:57:37.999  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
-2023-10-06 10:57:38.000  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
-2023-10-06 10:57:57.243  INFO 10256 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"e14f0f323e490438148e7d6078f6c139","event":{"token":"228c8296b721dc29","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 10:57:57.243  WARN 10256 --- [XNIO-1 I/O-2] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
-2023-10-06 10:57:57.250  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:hej"
-2023-10-06 10:57:57.666  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: hej
-2023-10-06 10:57:57.671  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Ahej, client=127.0.0.1
-2023-10-06 10:58:28.299  INFO 10256 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 10:58:57.700  INFO 10256 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61523 -- CloseStatus[code=1006, reason=]
-2023-10-06 10:58:57.701  INFO 10256 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2023-10-06 10:59:13.869  INFO 10256 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61573
-2023-10-06 10:59:13.871  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
-2023-10-06 10:59:13.872  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
-2023-10-06 10:59:32.628  INFO 10256 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"sessionId":"f09d9f2a8a7c5e8316917a681c185261","event":{"token":"381353a4d69b6557","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 10:59:32.629  WARN 10256 --- [XNIO-1 I/O-11] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
-2023-10-06 10:59:32.636  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:+1"
-2023-10-06 10:59:33.011  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: +1
-2023-10-06 10:59:33.015  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3A%2B1, client=127.0.0.1
-2023-10-06 10:59:52.366  INFO 10256 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:00:03.083  INFO 10256 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"sessionId":"f09d9f2a8a7c5e8316917a681c185261","event":{"token":"b38e5aecf2dc3bf6","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:00:03.085  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:hej"
-2023-10-06 11:00:03.483  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: hej
-2023-10-06 11:00:03.488  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Ahej, client=127.0.0.1
-2023-10-06 11:01:18.759  INFO 10256 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:01:28.162  INFO 10256 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"sessionId":"f09d9f2a8a7c5e8316917a681c185261","event":{"token":"ec6d5fb497d17eb4","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:01:28.165  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:hej"
-2023-10-06 11:01:28.575  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: hej
-2023-10-06 11:01:28.578  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Ahej, client=127.0.0.1
-2023-10-06 11:02:55.428  INFO 10256 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:02:58.753  INFO 10256 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"sessionId":"f09d9f2a8a7c5e8316917a681c185261","event":{"token":"262bd2e6e2aa1672","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:02:58.754  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:yee"
-2023-10-06 11:02:59.155  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: yee
-2023-10-06 11:02:59.159  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Ayee, client=127.0.0.1
-2023-10-06 11:05:41.200  INFO 10256 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:06:01.797  INFO 10256 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61573 -- CloseStatus[code=1006, reason=]
-2023-10-06 11:06:01.798  INFO 10256 --- [XNIO-1 I/O-11] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2023-10-06 11:06:09.943  INFO 10256 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61745
-2023-10-06 11:06:09.945  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
-2023-10-06 11:06:09.946  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
-2023-10-06 11:06:34.755  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"sessionId":"486f1bff180d94958ea3523c0f79219c","event":{"token":"d38d32435b61e209","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:06:34.758  WARN 10256 --- [XNIO-1 I/O-8] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
-2023-10-06 11:06:34.773  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:svamp"
-2023-10-06 11:06:35.210  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: svamp
-2023-10-06 11:06:35.213  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Asvamp, client=127.0.0.1
-2023-10-06 11:07:15.287  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:07:16.493  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61745 -- CloseStatus[code=1006, reason=]
-2023-10-06 11:07:16.494  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2023-10-06 11:07:42.626  INFO 10256 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61790
-2023-10-06 11:07:42.629  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
-2023-10-06 11:07:42.631  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
-2023-10-06 11:08:06.983  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"sessionId":"c462adab5b63ca7ff607f923e299e517","event":{"token":"c6c68204265220d6","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:08:06.985  WARN 10256 --- [XNIO-1 I/O-8] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
-2023-10-06 11:08:06.997  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:aaa"
-2023-10-06 11:08:07.404  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: aaa
-2023-10-06 11:08:07.407  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aaaa, client=127.0.0.1
-2023-10-06 11:08:34.060  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:08:35.033  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61790 -- CloseStatus[code=1006, reason=]
-2023-10-06 11:08:35.033  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2023-10-06 11:08:42.951  INFO 10256 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61821
-2023-10-06 11:08:42.953  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
-2023-10-06 11:08:42.954  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
-2023-10-06 11:09:11.713  INFO 10256 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"sessionId":"5de5784162c1660cd81b7dfb8f88ee90","event":{"token":"9a9adfa08f4591fb","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:09:11.713  WARN 10256 --- [XNIO-1 I/O-5] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
-2023-10-06 11:09:11.721  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:b"
-2023-10-06 11:09:12.071  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: b
-2023-10-06 11:09:12.073  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Ab, client=127.0.0.1
-2023-10-06 11:09:34.695  INFO 10256 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:12:50.341  INFO 10256 --- [XNIO-1 I/O-5] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61821 -- CloseStatus[code=1006, reason=]
-2023-10-06 11:12:50.342  INFO 10256 --- [XNIO-1 I/O-5] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2023-10-06 11:13:01.225  INFO 10256 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:61928
-2023-10-06 11:13:01.228  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
-2023-10-06 11:13:01.229  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
-2023-10-06 11:13:08.409  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"sessionId":"889ecbef31d15dde0fc0821f1c4d007f","event":{"token":"fd2a55be311c8d5c","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:13:08.410  WARN 10256 --- [XNIO-1 I/O-8] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
-2023-10-06 11:13:08.418  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:c"
-2023-10-06 11:13:08.812  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: c
-2023-10-06 11:13:08.816  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Ac, client=127.0.0.1
-2023-10-06 11:13:32.041  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:14:03.488  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"sessionId":"889ecbef31d15dde0fc0821f1c4d007f","event":{"token":"d58a7831605a1aa9","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:14:03.489  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:d"
-2023-10-06 11:14:03.894  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: d
-2023-10-06 11:14:03.897  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Ad, client=127.0.0.1
-2023-10-06 11:14:27.164  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:14:40.654  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"sessionId":"889ecbef31d15dde0fc0821f1c4d007f","event":{"token":"e50da21b81b7e7fb","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:14:40.655  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:e"
-2023-10-06 11:14:41.232  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: e
-2023-10-06 11:14:41.235  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Ae, client=127.0.0.1
-2023-10-06 11:15:00.055  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:15:06.502  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"sessionId":"889ecbef31d15dde0fc0821f1c4d007f","event":{"token":"0559a1a2da7b5feb","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:15:06.503  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:ffff"
-2023-10-06 11:15:06.886  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ffff
-2023-10-06 11:15:06.890  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Affff, client=127.0.0.1
-2023-10-06 11:18:11.691  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:18:12.984  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:61928 -- CloseStatus[code=1006, reason=]
-2023-10-06 11:18:12.984  INFO 10256 --- [XNIO-1 I/O-8] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2023-10-06 11:25:35.535  INFO 10256 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:62253
-2023-10-06 11:25:35.538  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
-2023-10-06 11:25:35.539  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
-2023-10-06 11:25:53.796  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"cf3e63dea8d6cc1601336c907b7b997d","event":{"token":"218d28144c15d4c2","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:25:53.797  WARN 10256 --- [XNIO-1 I/O-6] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
-2023-10-06 11:25:53.804  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:the strokes"
-2023-10-06 11:25:54.304  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: the strokes
-2023-10-06 11:25:54.308  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Athe+strokes, client=127.0.0.1
-2023-10-06 11:26:06.652  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAjwIAKlRoZSBTdHJva2VzIC0gUmVwdGlsaWEgKE9mZmljaWFsIEhEIFZpZGVvKQALVGhlIFN0cm9rZXMAAAAAAANLwAALYjgtdFhHOEtyV3MAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1iOC10WEc4S3JXcwAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"445329368135237646"}
-2023-10-06 11:26:06.676  WARN 10256 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : YouTube auth tokens can't be retrieved because email and password is not set in YoutubeAudioSourceManager, age restricted videos will throw exceptions.
-2023-10-06 11:26:06.935  INFO 10256 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is null).
-2023-10-06 11:26:06.985  INFO 10256 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtaVVI2Z3AyUVMwcyieif-oBjIICgJBWBICEgA6CiCdqrbV5ZPxj2U%3D, next update will be after 600 seconds.
-2023-10-06 11:26:40.071  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:mos def"
-2023-10-06 11:26:40.537  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: mos def
-2023-10-06 11:26:40.541  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Amos+def, client=127.0.0.1
-2023-10-06 11:27:16.210  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:aaa"
-2023-10-06 11:27:16.612  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: aaa
-2023-10-06 11:27:16.615  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aaaa, client=127.0.0.1
-2023-10-06 11:27:36.348  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"445329368135237646"}
-2023-10-06 11:27:36.362  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAvgIAV0EgQWEgSGluZGkgRHViYmVkIEZ1bGwgTW92aWUgTmV3IHwgTml0aGlpbiwgU2FtYW50aGEsIEFudXBhbWEgUGFyYW1lc2h3YXJhbiB8IFRyaXZpa3JhbQANQWRpdHlhIE1vdmllcwAAAAAAitrgAAtSN2FDT0k0RHVBMAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVI3YUNPSTREdUEwAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"445329368135237646"}
-2023-10-06 11:28:03.440  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:28:10.145  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"cf3e63dea8d6cc1601336c907b7b997d","event":{"token":"16fb08b3d66804aa","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:28:10.146  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:aaa"
-2023-10-06 11:28:10.549  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: aaa
-2023-10-06 11:28:10.553  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aaaa, client=127.0.0.1
-2023-10-06 11:28:22.738  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAvgIAV0EgQWEgSGluZGkgRHViYmVkIEZ1bGwgTW92aWUgTmV3IHwgTml0aGlpbiwgU2FtYW50aGEsIEFudXBhbWEgUGFyYW1lc2h3YXJhbiB8IFRyaXZpa3JhbQANQWRpdHlhIE1vdmllcwAAAAAAitrgAAtSN2FDT0k0RHVBMAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PVI3YUNPSTREdUEwAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"445329368135237646"}
-2023-10-06 11:29:09.862  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:29:15.282  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:62253 -- CloseStatus[code=1006, reason=]
-2023-10-06 11:29:15.282  INFO 10256 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2023-10-06 11:29:23.677  INFO 10256 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:62374
-2023-10-06 11:29:23.679  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
-2023-10-06 11:29:23.681  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
-2023-10-06 11:29:51.486  INFO 10256 --- [XNIO-1 I/O-10] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:62374 -- CloseStatus[code=1006, reason=]
-2023-10-06 11:29:51.487  INFO 10256 --- [XNIO-1 I/O-10] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2023-10-06 11:30:49.738  INFO 10256 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:62413
-2023-10-06 11:30:49.740  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
-2023-10-06 11:30:49.742  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
-2023-10-06 11:30:56.470  INFO 10256 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"sessionId":"0b98ea432e7785bd182003ec6df8bb6c","event":{"token":"ce0563fe494bdb63","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:30:56.471  WARN 10256 --- [XNIO-1 I/O-2] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
-2023-10-06 11:30:56.480  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:hej"
-2023-10-06 11:30:56.858  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: hej
-2023-10-06 11:30:56.868  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Ahej, client=127.0.0.1
-2023-10-06 11:31:26.601  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:aaa"
-2023-10-06 11:31:26.978  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: aaa
-2023-10-06 11:31:26.985  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aaaa, client=127.0.0.1
-2023-10-06 11:32:11.204  INFO 10256 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:32:15.119  INFO 10256 --- [XNIO-1 I/O-2] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:62413 -- CloseStatus[code=1006, reason=]
-2023-10-06 11:32:15.120  INFO 10256 --- [XNIO-1 I/O-2] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
-2023-10-06 11:33:46.751  INFO 10256 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:62518
-2023-10-06 11:33:46.753  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
-2023-10-06 11:33:46.754  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
-2023-10-06 11:34:11.956  INFO 10256 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"01489a5c5bed43301a510d9c371a0f8d","event":{"token":"137184d0945ee5a8","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:34:11.957  WARN 10256 --- [XNIO-1 I/O-4] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
-2023-10-06 11:34:11.971  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:abcdefg"
-2023-10-06 11:34:12.373  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: abcdefg
-2023-10-06 11:34:12.377  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aabcdefg, client=127.0.0.1
-2023-10-06 11:34:25.026  INFO 10256 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:34:40.132  INFO 10256 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"01489a5c5bed43301a510d9c371a0f8d","event":{"token":"f57f4cdf2b9b252e","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:34:40.132  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:auditorium"
-2023-10-06 11:34:40.565  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: auditorium
-2023-10-06 11:34:40.568  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aauditorium, client=127.0.0.1
-2023-10-06 11:34:53.117  INFO 10256 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"track":"QAAAngIAM01vcyBEZWYgLSBBdWRpdG9yaXVtIChmZWF0dXJpbmcgU2xpY2sgUmljaykgW0F1ZGlvXQARRGVhdGggR2FtaW5nIEJsb2IAAAAAAAQyOAALa1NRRUdFOGdLajQAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1rU1FFR0U4Z0tqNAAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"445329368135237646"}
-2023-10-06 11:34:58.186  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:abc"
-2023-10-06 11:34:58.625  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: abc
-2023-10-06 11:34:58.629  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aabc, client=127.0.0.1
-2023-10-06 11:35:29.769  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:abc"
-2023-10-06 11:35:30.171  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: abc
-2023-10-06 11:35:30.175  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aabc, client=127.0.0.1
-2023-10-06 11:36:10.886  INFO 10256 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:36:33.197  INFO 10256 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"01489a5c5bed43301a510d9c371a0f8d","event":{"token":"217fe271c7bdda04","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
-2023-10-06 11:36:33.199  INFO 10256 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:moro"
-2023-10-06 11:36:33.568  INFO 10256 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: moro
-2023-10-06 11:36:33.575  INFO 10256 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Amoro, client=127.0.0.1
-2023-10-06 11:36:46.350  INFO 10256 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
-2023-10-06 11:41:57.484  INFO 10256 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:62518 -- CloseStatus[code=1006, reason=]
-2023-10-06 11:41:57.485  INFO 10256 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-10 14:56:45.763  INFO 21768 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to 1 default profile: "default"
+2023-10-10 14:56:46.945  WARN 21768 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2023-10-10 14:56:46.996  INFO 21768 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2023-10-10 14:56:46.997  INFO 21768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1228 ms
+2023-10-10 14:56:47.368  INFO 21768 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2023-10-10 14:56:49.135  INFO 21768 --- [main] lavalink.server.config.KoeConfiguration  : OS: WINDOWS, Arch: X86_64
+2023-10-10 14:56:49.136  INFO 21768 --- [main] lavalink.server.config.KoeConfiguration  : Enabling JDA-NAS
+2023-10-10 14:56:49.142  INFO 21768 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: loading with filter null
+2023-10-10 14:56:49.156  INFO 21768 --- [main] c.s.l.c.natives.NativeLibraryLoader      : Native library udpqueue: successfully loaded.
+2023-10-10 14:56:49.216  WARN 21768 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2023-10-10 14:56:49.611  INFO 21768 --- [main] io.undertow                              : starting server: Undertow - 2.2.16.Final
+2023-10-10 14:56:49.633  INFO 21768 --- [main] org.xnio                                 : XNIO version 3.8.6.Final
+2023-10-10 14:56:49.661  INFO 21768 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.8.6.Final
+2023-10-10 14:56:49.863  INFO 21768 --- [main] org.jboss.threads                        : JBoss Threads version 3.1.0.Final
+2023-10-10 14:56:49.978  INFO 21768 --- [main] o.s.b.w.e.undertow.UndertowWebServer     : Undertow started on port(s) 2333 (http)
+2023-10-10 14:56:49.985  INFO 21768 --- [main] lavalink.server.Launcher                 : Started Launcher in 4.299 seconds (JVM running for 6.819)
+2023-10-10 14:56:49.986  INFO 21768 --- [main] lavalink.server.Launcher                 : Lavalink is ready to accept connections.
+2023-10-10 15:01:14.415  INFO 21768 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-10-10 15:01:14.416  INFO 21768 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-10-10 15:01:14.419  INFO 21768 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-10-10 15:01:14.554  INFO 21768 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:63654
+2023-10-10 15:01:14.580  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
+2023-10-10 15:01:14.812  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
+2023-10-10 15:01:26.940  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"13ea479098210b4562ed5273aa3547a7","event":{"token":"f88da3bad6f95d8b","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 15:01:26.941  WARN 21768 --- [XNIO-1 I/O-6] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
+2023-10-10 15:01:26.969  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:gangnam style"
+2023-10-10 15:01:27.629  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: gangnam style
+2023-10-10 15:01:27.705  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Agangnam+style, client=127.0.0.1
+2023-10-10 15:01:40.520  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 15:01:48.050  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"13ea479098210b4562ed5273aa3547a7","event":{"token":"fe9b786a6154ccb9","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 15:01:48.051  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:gangnam style"
+2023-10-10 15:01:48.612  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: gangnam style
+2023-10-10 15:01:48.618  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Agangnam+style, client=127.0.0.1
+2023-10-10 15:02:01.910  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAjQIAKFBTWSAtIEdBTkdOQU0gU1RZTEUo6rCV64Ko7Iqk7YOA7J28KSBNL1YAC29mZmljaWFscHN5AAAAAAAD3EgACzliWmtwN3ExOWYwAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9OWJaa3A3cTE5ZjAAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"445329368135237646"}
+2023-10-10 15:02:01.922  WARN 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : YouTube auth tokens can't be retrieved because email and password is not set in YoutubeAudioSourceManager, age restricted videos will throw exceptions.
+2023-10-10 15:02:02.219  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is null).
+2023-10-10 15:02:02.271  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtDSi1DU0dwOVhVWSi2-pSpBjIICgJBWBICEgA6CiCayMrt5abPkmU%3D, next update will be after 600 seconds.
+2023-10-10 15:03:08.361  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 15:03:18.091  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"13ea479098210b4562ed5273aa3547a7","event":{"token":"a02313d97ca1d077","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 15:03:18.093  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:daddy psy"
+2023-10-10 15:03:18.712  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: daddy psy
+2023-10-10 15:03:18.718  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Adaddy+psy, client=127.0.0.1
+2023-10-10 15:03:32.254  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 15:03:37.604  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"13ea479098210b4562ed5273aa3547a7","event":{"token":"c4d4f86375cbd34c","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 15:03:37.605  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:daddy psy"
+2023-10-10 15:03:38.128  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: daddy psy
+2023-10-10 15:03:38.132  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Adaddy+psy, client=127.0.0.1
+2023-10-10 15:03:50.999  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 15:03:55.308  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"13ea479098210b4562ed5273aa3547a7","event":{"token":"203d8463ace2954e","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 15:03:55.309  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:daddy psy"
+2023-10-10 15:03:55.775  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: daddy psy
+2023-10-10 15:03:55.779  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Adaddy+psy, client=127.0.0.1
+2023-10-10 15:04:08.535  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 15:04:14.582  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"13ea479098210b4562ed5273aa3547a7","event":{"token":"68bf13b5472522be","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 15:04:14.582  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:daddy psy"
+2023-10-10 15:04:15.063  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: daddy psy
+2023-10-10 15:04:15.068  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Adaddy+psy, client=127.0.0.1
+2023-10-10 15:04:28.101  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 15:04:32.249  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"13ea479098210b4562ed5273aa3547a7","event":{"token":"85da99a32f368c15","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 15:04:32.250  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:daddy psy"
+2023-10-10 15:04:32.755  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: daddy psy
+2023-10-10 15:04:32.760  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Adaddy+psy, client=127.0.0.1
+2023-10-10 15:04:47.619  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAhgIAIVBTWSAtIERBRERZKGZlYXQuIENMIG9mIDJORTEpIE0vVgALb2ZmaWNpYWxwc3kAAAAAAAO9CAALRnJHNFRFY1N1UmcAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1Gckc0VEVjU3VSZwAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"445329368135237646"}
+2023-10-10 15:06:17.209  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 15:06:21.795  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:63654 -- CloseStatus[code=1006, reason=]
+2023-10-10 15:06:21.796  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-10 15:09:01.676  INFO 21768 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:63871
+2023-10-10 15:09:01.678  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
+2023-10-10 15:09:01.680  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
+2023-10-10 15:09:16.252  INFO 21768 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"sessionId":"530af9a1f5058c75f89862dedff0f6dc","event":{"token":"fdba7b47d834601e","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 15:09:16.253  WARN 21768 --- [XNIO-1 I/O-11] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
+2023-10-10 15:09:16.261  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:cherry pie"
+2023-10-10 15:09:16.844  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: cherry pie
+2023-10-10 15:09:16.847  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Acherry+pie, client=127.0.0.1
+2023-10-10 15:09:30.057  INFO 21768 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"track":"QAAAjgIAFFdhcnJhbnQgLSBDaGVycnkgUGllACBXYXJyYW50IE9mZmljaWFsIFlvdVR1YmUgQ2hhbm5lbAAAAAAAAw1AAAtPanlaS2Zkd2xuZwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PU9qeVpLZmR3bG5nAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"445329368135237646"}
+2023-10-10 15:09:47.763  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:back in black"
+2023-10-10 15:09:48.217  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: back in black
+2023-10-10 15:09:48.225  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aback+in+black, client=127.0.0.1
+2023-10-10 15:10:34.335  INFO 21768 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"445329368135237646"}
+2023-10-10 15:10:34.340  INFO 21768 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"track":"QAAAhQIAJkFDL0RDIC0gQmFjayBJbiBCbGFjayAoT2ZmaWNpYWwgVmlkZW8pAAVBQy9EQwAAAAAAA+AwAAtwQWduSkRKTjRWQQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PXBBZ25KREpONFZBAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"445329368135237646"}
+2023-10-10 15:10:43.777  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sweet child o mine"
+2023-10-10 15:10:44.332  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sweet child o mine
+2023-10-10 15:10:44.338  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Asweet+child+o+mine, client=127.0.0.1
+2023-10-10 15:11:17.540  INFO 21768 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"445329368135237646"}
+2023-10-10 15:11:17.542  INFO 21768 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"track":"QAAAoQIAOkd1bnMgTicgUm9zZXMgLSBTd2VldCBDaGlsZCBPJyBNaW5lIChPZmZpY2lhbCBNdXNpYyBWaWRlbykADUd1bnMgTicgUm9zZXMAAAAAAASfmAALMXc3T2dJTU1SYzQAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj0xdzdPZ0lNTVJjNAAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"445329368135237646"}
+2023-10-10 15:11:23.671  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:welcome to the jungle"
+2023-10-10 15:11:24.193  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: welcome to the jungle
+2023-10-10 15:11:24.199  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Awelcome+to+the+jungle, client=127.0.0.1
+2023-10-10 15:11:42.783  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:gangnam style"
+2023-10-10 15:11:43.265  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: gangnam style
+2023-10-10 15:11:43.269  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Agangnam+style, client=127.0.0.1
+2023-10-10 15:13:04.306  INFO 21768 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 15:13:22.093  INFO 21768 --- [XNIO-1 I/O-11] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:63871 -- CloseStatus[code=1006, reason=]
+2023-10-10 15:13:22.094  INFO 21768 --- [XNIO-1 I/O-11] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-10 15:13:33.499  INFO 21768 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:64006
+2023-10-10 15:13:33.501  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
+2023-10-10 15:13:33.503  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
+2023-10-10 15:13:43.832  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"sessionId":"3974a706e49bff26dbd8e6b6531c4d5c","event":{"token":"7cd1016cc837b9ee","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 15:13:43.833  WARN 21768 --- [XNIO-1 I/O-6] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
+2023-10-10 15:13:43.840  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:underwater tujamo"
+2023-10-10 15:13:44.276  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: underwater tujamo
+2023-10-10 15:13:44.280  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aunderwater+tujamo, client=127.0.0.1
+2023-10-10 15:13:57.394  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"track":"QAAAiAIAKFRVSkFNTyAtIFVuZGVyd2F0ZXIgKE9mZmljYWwgVmlzdWFsaXplcikABlRVSkFNTwAAAAAAAibIAAs1N0tWZHotLUZsTQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTU3S1Zkei0tRmxNAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"445329368135237646"}
+2023-10-10 15:13:57.396  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgtDSi1DU0dwOVhVWSi2-pSpBjIICgJBWBICEgA6CiCayMrt5abPkmU%3D).
+2023-10-10 15:13:57.440  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtpZlhmbjVGbGpxZyiBgJWpBjIICgJBWBICEgA6CiDslomClIDQkmU%3D, next update will be after 600 seconds.
+2023-10-10 15:15:14.892  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 15:16:26.128  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:64006 -- CloseStatus[code=1006, reason=]
+2023-10-10 15:16:26.129  INFO 21768 --- [XNIO-1 I/O-6] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-10 15:16:34.939  INFO 21768 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:64096
+2023-10-10 15:16:34.941  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
+2023-10-10 15:16:34.943  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
+2023-10-10 15:17:32.510  INFO 21768 --- [XNIO-1 I/O-1] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:64096 -- CloseStatus[code=1006, reason=]
+2023-10-10 15:17:32.511  INFO 21768 --- [XNIO-1 I/O-1] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
+2023-10-10 15:23:33.969  INFO 21768 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:64308
+2023-10-10 15:23:33.971  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /, client=127.0.0.1
+2023-10-10 15:23:33.973  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from DSharpPlus.Lavalink
+2023-10-10 15:23:43.813  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"86dca156f1ca43eb29dce40b67e94f64","event":{"token":"08afa6d0167dc713","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 15:23:43.814  WARN 21768 --- [XNIO-1 I/O-4] lavalink.server.io.WebSocketHandler      : Sending websocket commands to Lavalink has been deprecated and will be removed in API version 4. API version 3 will be removed in Lavalink 5. Please use the new REST endpoints instead.
+2023-10-10 15:23:43.822  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:slow ride"
+2023-10-10 15:23:44.421  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: slow ride
+2023-10-10 15:23:44.429  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aslow+ride, client=127.0.0.1
+2023-10-10 15:23:57.303  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"track":"QAAAggIAI0ZvZ2hhdCAtIFNsb3cgUmlkZSAoT2ZmaWNpYWwgQXVkaW8pAAVSSElOTwAAAAAAB42YAAtEZndzWG41bjhIVQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PURmd3NYbjVuOEhVAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"445329368135237646"}
+2023-10-10 15:24:11.795  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 15:24:33.758  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"86dca156f1ca43eb29dce40b67e94f64","event":{"token":"8a850eebaef8563a","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 15:24:33.759  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sweet home alabama"
+2023-10-10 15:24:34.271  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sweet home alabama
+2023-10-10 15:24:34.278  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Asweet+home+alabama, client=127.0.0.1
+2023-10-10 15:24:34.280  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"track":"QAAAkwIAK0x5bnlyZCBTa3lueXJkIC0gU3dlZXQgSG9tZSBBbGFiYW1hIChBdWRpbykADkx5bnlyZCBTa3lueXJkAAAAAAAEVWAACy0zNVdfRldDVDlRAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9LTM1V19GV0NUOVEAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"445329368135237646"}
+2023-10-10 15:24:34.282  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgtpZlhmbjVGbGpxZyiBgJWpBjIICgJBWBICEgA6CiDslomClIDQkmU%3D).
+2023-10-10 15:24:34.312  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgsyX2h3SzhCN2xLNCj-hJWpBjIICgJBWBICEgA6CiCb4p2d4c_QkmU%3D, next update will be after 600 seconds.
+2023-10-10 15:24:42.653  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 15:26:10.191  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"86dca156f1ca43eb29dce40b67e94f64","event":{"token":"5ac1def469c2b63d","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 15:26:10.195  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:free bird"
+2023-10-10 15:26:10.774  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: free bird
+2023-10-10 15:26:10.780  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Afree+bird, client=127.0.0.1
+2023-10-10 15:26:23.707  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"track":"QAAAkwIAK0x5bnlyZCBTa3lueXJkIC0gRnJlZSBCaXJkIChPZmZpY2lhbCBBdWRpbykADkx5bnlyZCBTa3lueXJkAAAAAAAIaFgACzBMd2N2ak5KVHVNAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9MEx3Y3ZqTkpUdU0AB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"445329368135237646"}
+2023-10-10 15:30:49.942  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:wonderwall"
+2023-10-10 15:30:50.482  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: wonderwall
+2023-10-10 15:30:50.486  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Awonderwall, client=127.0.0.1
+2023-10-10 15:35:34.208  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"track":"QAAAggIAI09hc2lzIC0gV29uZGVyd2FsbCAoT2ZmaWNpYWwgVmlkZW8pAAVPYXNpcwAAAAAABD3wAAtieDFCaDhadkg4NAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWJ4MUJoOFp2SDg0AAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"445329368135237646"}
+2023-10-10 15:35:34.211  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgsyX2h3SzhCN2xLNCj-hJWpBjIICgJBWBICEgA6CiCb4p2d4c_QkmU%3D).
+2023-10-10 15:35:34.266  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtiSi01SlV2UVRwSSiSipWpBjIICgJBWBICEgA6CiCSsfewpKLRkmU%3D, next update will be after 600 seconds.
+2023-10-10 15:40:12.248  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 16:13:38.373  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"86dca156f1ca43eb29dce40b67e94f64","event":{"token":"a8c18ee8e5b1903f","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 16:13:38.376  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:space cadet"
+2023-10-10 16:13:38.874  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: space cadet
+2023-10-10 16:13:38.893  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aspace+cadet, client=127.0.0.1
+2023-10-10 16:13:38.895  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"track":"QAAAoQIAO01ldHJvIEJvb21pbiAtIFNwYWNlIENhZGV0IChPZmZpY2lhbCBNdXNpYyBWaWRlbykgZnQuIEd1bm5hAAxNZXRybyBCb29taW4AAAAAAANH2AALcUJXaGM0cWJzam8AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1xQldoYzRxYnNqbwAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"445329368135237646"}
+2023-10-10 16:13:38.896  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgtiSi01SlV2UVRwSSiSipWpBjIICgJBWBICEgA6CiCSsfewpKLRkmU%3D).
+2023-10-10 16:13:38.958  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtYbERDbjRwWlJhVSj-m5WpBjIICgJBWBICEgA6CiDZ1u_75L_TkmU%3D, next update will be after 600 seconds.
+2023-10-10 16:17:13.702  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 16:20:16.656  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"86dca156f1ca43eb29dce40b67e94f64","event":{"token":"70e8da8205a70760","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 16:20:16.659  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:i like big boy idibidi boys mississippi boys and the city boys"
+2023-10-10 16:20:16.895  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : No matches found
+2023-10-10 16:20:17.123  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Ai+like+big+boy+idibidi+boys+mississippi+boys+and+the+city+boys, client=127.0.0.1
+2023-10-10 17:07:07.366  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:beatbox im a barbie girl"
+2023-10-10 17:07:07.931  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: beatbox im a barbie girl
+2023-10-10 17:07:08.000  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Abeatbox+im+a+barbie+girl, client=127.0.0.1
+2023-10-10 17:07:08.004  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"track":"QAAAjAIAJ0NPTUUgT04gQkFSQklFIExFVOKAmVMgR08gUEFSVFkgI3Nob3J0cwALUGFpZ2UgWmlsYmEAAAAAAABV8AALbkdnUzRNZ3VPWU0AAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1uR2dTNE1ndU9ZTQAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"445329368135237646"}
+2023-10-10 17:07:08.007  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgtYbERDbjRwWlJhVSj-m5WpBjIICgJBWBICEgA6CiDZ1u_75L_TkmU%3D).
+2023-10-10 17:07:08.074  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtoLWxPTjFGQkk5VSiItZWpBjIICgJBWBICEgA6CiCN49mFg9HWkmU%3D, next update will be after 600 seconds.
+2023-10-10 17:07:29.486  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 21:05:51.302  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"86dca156f1ca43eb29dce40b67e94f64","event":{"token":"b87f88f870994871","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 21:05:51.367  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:vossi bop"
+2023-10-10 21:05:51.991  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: vossi bop
+2023-10-10 21:05:52.109  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Avossi+bop, client=127.0.0.1
+2023-10-10 21:06:05.110  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"track":"QAAAdAIAE1NUT1JNWlkgLSBWT1NTSSBCT1AAB1N0b3JtenkAAAAAAAMgyAALOUNsWXkwTXhzVTAAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj05Q2xZeTBNeHNVMAAHeW91dHViZQAAAAAAAAAA","op":"play","guildId":"445329368135237646"}
+2023-10-10 21:06:05.113  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgtoLWxPTjFGQkk5VSiItZWpBjIICgJBWBICEgA6CiCN49mFg9HWkmU%3D).
+2023-10-10 21:06:05.159  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtKWGczUHFhZGY1USiJpZapBjIICgJBWBICEgA6CiCgvpSLkdHkkmU%3D, next update will be after 600 seconds.
+2023-10-10 21:09:29.622  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 21:10:11.823  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"86dca156f1ca43eb29dce40b67e94f64","event":{"token":"fc09edbf3a6f6ef8","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 21:10:11.825  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:jakobstad"
+2023-10-10 21:10:12.256  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: jakobstad
+2023-10-10 21:10:12.259  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Ajakobstad, client=127.0.0.1
+2023-10-10 21:10:25.132  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 21:10:36.039  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"86dca156f1ca43eb29dce40b67e94f64","event":{"token":"a8011cf8579d3d62","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 21:10:36.040  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Dadi Vozo"
+2023-10-10 21:10:36.399  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Dadi Vozo
+2023-10-10 21:10:36.405  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3ADadi+Vozo, client=127.0.0.1
+2023-10-10 21:10:48.899  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"track":"QAAAigIAJ0RhZGkgVm96byAtIEpha29ic3RhZCAoT2ZmaWNpZWxsIHZpZGVvKQAJRGFkaSBWb3pvAAAAAAADrWgAC21XQjlaZTExa01BAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9bVdCOVplMTFrTUEAB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"445329368135237646"}
+2023-10-10 21:14:50.023  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 21:18:27.383  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"86dca156f1ca43eb29dce40b67e94f64","event":{"token":"924378b5439d1224","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 21:18:27.387  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:exde"
+2023-10-10 21:18:27.848  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: exde
+2023-10-10 21:18:27.879  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aexde, client=127.0.0.1
+2023-10-10 21:18:27.895  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"track":"QAAAgQIAI0VYREUgLSBQUkVTUyAoT2ZmaWNpYWwgTXVzaWMgVmlkZW8pAARFWERFAAAAAAACs2gAC1E4a2pXYWxQSXZvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UThraldhbFBJdm8AB3lvdXR1YmUAAAAAAAAAAA==","op":"play","guildId":"445329368135237646"}
+2023-10-10 21:18:27.897  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is CgtKWGczUHFhZGY1USiJpZapBjIICgJBWBICEgA6CiCgvpSLkdHkkmU%3D).
+2023-10-10 21:18:27.958  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is Cgt2RWhfTEY0S011OCjwqpapBjIICgJBWBICEgA6CiDXqLvPha7lkmU%3D, next update will be after 600 seconds.
+2023-10-10 21:21:24.823  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 21:31:30.570  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"86dca156f1ca43eb29dce40b67e94f64","event":{"token":"330bd9868af0939a","guild_id":"445329368135237646","endpoint":"rotterdam11007.discord.media:443"},"op":"voiceUpdate","guildId":"445329368135237646"}
+2023-10-10 21:31:30.574  INFO 21768 --- [XNIO-1 task-1] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:underwater tujamo"
+2023-10-10 21:31:31.090  INFO 21768 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: underwater tujamo
+2023-10-10 21:31:31.107  INFO 21768 --- [XNIO-1 task-1] lavalink.server.io.RequestLoggingFilter  : GET /loadtracks?identifier=ytsearch%3Aunderwater+tujamo, client=127.0.0.1
+2023-10-10 21:31:31.109  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"track":"QAAAiAIAKFRVSkFNTyAtIFVuZGVyd2F0ZXIgKE9mZmljYWwgVmlzdWFsaXplcikABlRVSkFNTwAAAAAAAibIAAs1N0tWZHotLUZsTQABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTU3S1Zkei0tRmxNAAd5b3V0dWJlAAAAAAAAAAA=","op":"play","guildId":"445329368135237646"}
+2023-10-10 21:31:31.118  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id (current is Cgt2RWhfTEY0S011OCjwqpapBjIICgJBWBICEgA6CiDXqLvPha7lkmU%3D).
+2023-10-10 21:31:31.173  INFO 21768 --- [lava-daemon-pool-playback-1-thread-1] c.s.d.l.s.y.YoutubeAccessTokenTracker    : Updating YouTube visitor id succeeded, new one is CgtKWm9GSlVPemhzbyj_sJapBjIICgJBWBICEgA6CiDemcen8I_mkmU%3D, next update will be after 600 seconds.
+2023-10-10 21:33:52.551  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"445329368135237646"}
+2023-10-10 22:10:53.818  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:64308 -- CloseStatus[code=1006, reason=]
+2023-10-10 22:10:53.819  INFO 21768 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 0 playing players.
