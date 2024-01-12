@@ -18,20 +18,20 @@ namespace DiscordBot
             //Setups
             var discord = new DiscordClient(new DiscordConfiguration()
             {
-                Token = "MTE1MzY1NzQxNTEyOTExNjc4Mw.GM3r5U.4W5HWP7GHEon4i49ASTgfrq8rOfW_kTO2XYD1Q",
+                Token = "Enter own token here",
                 TokenType = TokenType.Bot,
                 Intents = DiscordIntents.AllUnprivileged | DiscordIntents.MessageContents,
                 MinimumLogLevel = LogLevel.Debug
             });
             var endpoint = new ConnectionEndpoint
             {
-                Hostname = "127.0.0.1", // From your server configuration.
-                Port = 2333 // From your server configuration
+                Hostname = "ownserver", // From your server configuration.
+                Port = "ownport" // From your server configuration
             };
 
             var lavalinkConfig = new LavalinkConfiguration
             {
-                Password = "youshallnotpass", // From your server configuration.
+                Password = "yourpassword", // From your server configuration.
                 RestEndpoint = endpoint,
                 SocketEndpoint = endpoint
             };

@@ -1,6 +1,6 @@
 server: # REST and WS server
-  port: 2333
-  address: 127.0.0.1
+  port: <ownPort>
+  address: <serverIP>
 plugins:
 #  name: # Name of the plugin
 #    some_key: some_value # Some key-value pair for the plugin
@@ -11,7 +11,7 @@ lavalink:
 #      repository: "repository"
   pluginsDir: "./plugins"
   server:
-    password: "youshallnotpass"
+    password: <setpasswordhere>
     sources:
       youtube: true
       bandcamp: true
